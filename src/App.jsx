@@ -8,7 +8,7 @@ function App() {
     <Fragment>
       <Navbar />
       <main>
-        <section className="leftForm">
+        <section className="leftForm container">
           <Leftform />
         </section>
       </main>

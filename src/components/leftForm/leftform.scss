@@ -1,3 +1,23 @@
-.left {
-  padding-top: 150px;
+.user__card {
+  &__img {
+    // height: 200px;
+    width: 100%;
+    img {
+      width: 100%;
+      object-fit: contain;
+    }
+  }
+}
+
+.forms {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+form {
+  position: sticky;
+  // width: 250px;
+  height: 100vh;
+  background: red;
+  left: 0;
 }

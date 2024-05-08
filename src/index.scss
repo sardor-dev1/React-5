@@ -19,17 +19,11 @@ button {
 }
 
 .container {
-  width: 85%;
+  width: 90%;
   margin: 0 auto;
   max-width: 1440px;
 }
 
-// .leftForm {
-//   z-index: 5;
-//   position: sticky;
-//   left: 0;
-//   top: 0;
-//   height: 100vh;
-//   width: 250px;
-//   background: red;
-// }
+.leftForm {
+  padding-top: 80px;
+}
