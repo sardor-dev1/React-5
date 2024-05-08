@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+a {
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+// .leftForm {
+//   z-index: 5;
+//   position: sticky;
+//   left: 0;
+//   top: 0;
+//   height: 100vh;
+//   width: 250px;
+//   background: red;
+// }
