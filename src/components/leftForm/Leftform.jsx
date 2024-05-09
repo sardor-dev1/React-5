@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./leftform.scss";
+import Modal from "../modal/Modal";
 
 let userCard = [
   {
@@ -18,7 +19,7 @@ let userCard = [
     number: +9965151515,
     birth: "1956-25-36",
     gender: "male",
-    url: "https://images.law.com/contrib/content/uploads/sites/292/2024/03/Aleksandr-Livshits-767x633.jpg",
+    url: "https://t4.ftcdn.net/jpg/01/34/51/81/360_F_134518160_5DyP0y6YqXQgG6FdorIvpk7M6CBNrglm.jpg",
   },
   {
     id: "3",
@@ -27,7 +28,7 @@ let userCard = [
     number: +9965151515,
     birth: "1985-14-08",
     gender: "male",
-    url: "https://images.law.com/contrib/content/uploads/sites/292/2024/03/Aleksandr-Livshits-767x633.jpg",
+    url: "https://img.freepik.com/free-photo/smiling-executive_23-2147707180.jpg?size=626&ext=jpg&ga=GA1.1.553209589.1714953600&semt=ais",
   },
 ];
 
