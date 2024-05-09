@@ -70,7 +70,6 @@ function leftform() {
       };
       setData((prev) => [...prev, users]);
     }
-    console.log(data);
 
     setFname("");
     setLname("");
@@ -78,6 +77,25 @@ function leftform() {
     setUrl("");
     setNumber("");
     setGender("");
+  };
+  console.log(data);
+
+  const cardDelete = (id) => {
+    setEdit(null);
+    if (confirm("Card should be deleted")) {
+      let filterCard = data.filter((el) => el.id !== id);
+      setData(filterCard);
+    }
+  };
+
+  const cardEdit = (el) => {
+    setEdit(el);
+    setFname(el.fname);
+    setLname(el.lname);
+    setUrl(el.url);
+    setBirth(el.birth);
+    setNumber(el.number);
+    setGender(el.gender);
   };
 
   const [product, setProduct] = useState(null);
