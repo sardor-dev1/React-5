@@ -112,10 +112,10 @@ function leftform() {
   ));
 
   return (
-    <section className="container">
+    <section className="">
       <div className="forms">
         <form onSubmit={formSubmit} className="form" action="">
-          <h1 className="form__title">Form</h1>
+          <h2 className="form__title">Users Form</h2>
           <div>
             <label htmlFor="">Full name</label>
             <input
